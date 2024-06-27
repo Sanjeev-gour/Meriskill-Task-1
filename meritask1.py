@@ -58,7 +58,7 @@ plt.figure(figsize=(10,6))
 top_products.plot(kind='pie', autopct='%1.1f%%',startangle=140,colormap='viridis')
 plt.title('Top 5 best selling products of the market')
 plt.ylabel(" ")
-#plt.show()
+plt.show()
 
 
 #top 5 cities by sales 
@@ -72,7 +72,7 @@ plt.xticks(rotation=45)
 plt.ylabel('Sales')
 plt.xlabel('City')
 plt.title('Top 5 cities based on sales')
-#plt.show()
+plt.show()
 
 
 #newyork city data of top 5 products 
@@ -103,7 +103,7 @@ else:
     plt.xlabel('Product')
     plt.ylabel('Total Sales')
     plt.xticks(rotation=45)
-    #plt.show()
+    plt.show()
 
 #to calculate total profit 
 
